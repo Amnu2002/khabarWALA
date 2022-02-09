@@ -1,0 +1,26 @@
+.dropdownbutton{
+    color: white;
+    background-color:  darkblue;
+    border-radius: 5px;
+    width: max-content;
+}
+.dropdownlist{ 
+    position: absolute;
+    border-radius: 15px;
+    margin-left: -30px;
+    display: none;
+}
+.dropdownlist li{
+    list-style: none;
+    text-align: center;
+    border-radius: 5px;
+    width: 65px;
+}
+.dropdownlist li:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+.dropwrapper:hover .dropdownlist{
+    cursor: pointer;
+    display: block;
+}
